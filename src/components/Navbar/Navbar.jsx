@@ -38,7 +38,7 @@ export default function Navbar() {
                         variant='h1'
                         component={'h1'}
                     >
-                        Jarvis AI
+                        Bot AI
                     </Typography>
                 </Link>
             </Stack>

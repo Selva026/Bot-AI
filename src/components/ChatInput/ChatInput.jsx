@@ -40,7 +40,7 @@ export default function ChatInput({ generateResponse, setScroll, chat, clearChat
                     spacing={{ xs: .5, md: 2 }}
                 >
                     <TextField
-                        placeholder='Message Jarvis AI...'
+                        placeholder='Message Bot AI...'
                         sx={{
                             flex: 1,
                             bgcolor: 'primary.light',
