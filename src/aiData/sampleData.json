@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "question": "What is the difference between synchronous and asynchronous programming?",
+    "response": "Synchronous programming executes tasks sequentially, blocking further execution until the current task completes. Asynchronous programming allows tasks to execute concurrently, enabling non-blocking operations using callbacks, Promises, or async/await."
+  },
+  {
+    "id": 2,
+    "question": "How does event delegation work in JavaScript?",
+    "response": "Event delegation is a technique where a single event listener is attached to a parent element to handle events on its child elements. It improves performance and reduces memory usage, especially in dynamic applications."
+  },
+  {
+    "id": 3,
+    "question": "What is a memory leak and how do you prevent it?",
+    "response": "A memory leak occurs when allocated memory is not released after it is no longer needed, causing excessive memory usage. Prevent it by properly managing references, using garbage collection, and avoiding global variables or unneeded event listeners."
+  },
+  {
+    "id": 4,
+    "question": "What is debouncing in JavaScript?",
+    "response": "Debouncing is a technique used to limit the number of times a function executes within a given period. It helps optimize performance, especially in scenarios like handling user input events."
+  },
+  {
+    "id": 5,
+    "question": "How does the JavaScript event loop work?",
+    "response": "The event loop continuously checks the call stack and the task queue. It executes tasks synchronously in the call stack and processes asynchronous operations from the queue when the stack is empty."
+  },
+  {
+    "id": 6,
+    "question": "What is the difference between localStorage and sessionStorage?",
+    "response": "localStorage stores data persistently across sessions, while sessionStorage keeps data only for the duration of a page session and is cleared when the browser tab is closed."
+  },
+  {
+    "id": 7,
+    "question": "How do you improve database query performance?",
+    "response": "Optimize database queries by using indexing, reducing redundant queries, normalizing or denormalizing data as needed, using caching, and avoiding SELECT * queries."
+  },
+  {
+    "id": 8,
+    "question": "What is OAuth and how does it work?",
+    "response": "OAuth is an authentication framework that allows third-party services to access user data without exposing login credentials. It works by issuing access tokens after user authorization."
+  },
+  {
+    "id": 9,
+    "question": "What is the difference between HTTP and WebSockets?",
+    "response": "HTTP is a stateless request-response protocol, while WebSockets provide a persistent, bidirectional communication channel between the client and server, enabling real-time interactions."
+  },
+  {
+    "id": 10,
+    "question": "What is rate limiting in APIs?",
+    "response": "Rate limiting restricts the number of API requests a user can make within a specific timeframe to prevent abuse and ensure fair resource distribution."
+  },
+  {
+    "id": 11,
+    "question": "What is the difference between SQL and NoSQL databases?",
+    "response": "SQL databases use structured tables with predefined schemas, while NoSQL databases provide flexible data storage, making them suitable for unstructured or scalable applications."
+  },
+  {
+    "id": 12,
+    "question": "How does a CDN improve website performance?",
+    "response": "A Content Delivery Network (CDN) caches and serves website assets from servers closer to the user, reducing latency, improving load times, and decreasing server load."
+  },
+  {
+    "id": 13,
+    "question": "What is two-factor authentication (2FA)?",
+    "response": "2FA is an authentication method that requires two forms of verification, typically a password and a one-time code sent to a trusted device, increasing security."
+  },
+  {
+    "id": 14,
+    "question": "What is the purpose of hashing passwords?",
+    "response": "Hashing converts passwords into fixed-length strings using cryptographic functions, ensuring secure storage. It prevents plaintext password exposure in case of a database breach."
+  },
+  {
+    "id": 15,
+    "question": "What are the benefits of using GraphQL over REST?",
+    "response": "GraphQL allows clients to request only the needed data, reducing over-fetching and under-fetching issues. It provides a flexible schema, supports real-time data, and improves API efficiency."
+  },
+  {
+    "id": 16,
+    "question": "How does blockchain work?",
+    "response": "Blockchain is a decentralized, distributed ledger that records transactions in immutable blocks. It uses cryptographic hashing and consensus mechanisms like Proof of Work or Proof of Stake."
+  },
+  {
+    "id": 17,
+    "question": "What is a monorepo and why use it?",
+    "response": "A monorepo is a single repository that houses multiple projects. It simplifies dependency management, improves collaboration, and enables consistent tooling across projects."
+  },
+  {
+    "id": 18,
+    "question": "How do you manage large-scale applications?",
+    "response": "Manage large applications by using modular architecture, microservices, efficient database design, scalable infrastructure, caching strategies, and continuous monitoring."
+  },
+  {
+    "id": 19,
+    "question": "What is containerization?",
+    "response": "Containerization is a technique where applications and their dependencies are packaged into lightweight, portable containers, ensuring consistency across different environments."
+  },
+  {
+    "id": 20,
+    "question": "What are edge computing and its benefits?",
+    "response": "Edge computing processes data closer to the source instead of relying on centralized cloud servers. It reduces latency, improves speed, and minimizes bandwidth usage."
+  },
+  {
+      "id": 21,
+      "question": "Hi, what is the weather",
+      "response": "I'm sorry for any confusion, but I can't provide real-time information such as current temperature or weather updates. You can check the temperature by using a weather website or app, or by asking a smart assistant like Siri, Google Assistant, or Alexa."
+    },
+    {
+      "id": 22,
+      "question": "Hi, what is my location",
+      "response": "As an AI, I don't have access to your location information. Therefore, I'm unable to determine where you are. If you're using a device with location services enabled, such as a smartphone or computer, you may be able to find your location through the device's settings or by using a map application."
+    },
+    {
+      "id": 23,
+      "question": "Hi, what is the temperature",
+      "response": "I'm sorry for any confusion, but I can't provide real-time information such as current temperature or weather updates. You can check the temperature by using a weather website or app, or by asking a smart assistant like Siri, Google Assistant, or Alexa."
+    },
+    
+    {
+      "id": 24,
+      "question": "Hi, how are you",
+      "response": "Hello! I'm just a computer program, so I don't have feelings in the way humans do, but I'm here and ready to assist you. How can I help you today?"
+    }
+]
+
+
